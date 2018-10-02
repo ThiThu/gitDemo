@@ -8,7 +8,7 @@ public class ChuyenDoiTienTe {
         double usd;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap so tien usd:");
-        usd = scanner.nextInt();
+        usd = scanner.nextDouble();
         double quidoi_vnd = usd * 23000;
         System.out.println("Gia tien vnd:" +quidoi_vnd);
 
